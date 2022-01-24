@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Nunito', sans-serif ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Nunito', sans-serif;
+}
+.left h1{
+    color: #DC2902;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin: 30px;
+}
+.right{
+    margin: 30px;
+    display: flex;
+}
+.right a{
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+#black-moon{
+    width: 20px;
+    padding-bottom: 10px;
+}
+
+
+.container{
+    display: flex;
+}
+.right{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.left{
+    margin: 0;
+    padding: 0;
+}
+
+
+hr{
+    border: 2px solid #DC2902;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    width: 400px;
+}
+.menu{
+    background-color: #f9f2ea;
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+.title h1{
+    background-color: #fbe690;
+    color: #DC2902;
+    font-size: 100px;
+    padding: 50px 25%;
+}
+p{
+    letter-spacing:2px;
+}
+.food{
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    margin: 100px 0;
+    padding: 0;
+}
+.contact h1{
+    color: black;
+    margin: 0%;
+    padding: 20px;
+    font-size: 40px;
+}
+.couple{
+    display: flex;
+}
+.couple input{
+    border: none;
+    border-bottom: black solid 3px;
+    outline: none;
+    width: 250px;
+}
+.name{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+#message{
+    width: 400px;
+    font-size: 30px;
+}
+.name input{
+    font-size: 20px;
+}
+.name button{
+    width: 130px;
+    height: 70px;
+    vertical-align: bottom;
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .2s ease-out;
+}
+.name button:hover{
+    background: #DC2902;
+    color: white;
+}
+.contact p{
+    padding-left: 5%;
+}
+.contact h3{
+    padding: 20px;
+}
+.contact-left{
+    width: 60%;
+    margin: 0 auto;
+}
+.contact-right{
+    width: 40%;
+}
+.contact-container{
+    display: flex;
+}
+.left-container{
+    width: fit-content;
+    margin: 0 auto;
+}
